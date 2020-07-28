@@ -1,12 +1,14 @@
-.page-wrapper {
-  height: 100vh;
-  background-color: blue;
-}
-
 main {
   height: calc(100% - 80px);
   background-color: green;
   display: flex;
+}
+
+aside {
+  height: 100%;
+  width: 300px;
+  background-color: purple;
+  flex-direction: column;
 }
 
 footer {
@@ -14,11 +16,40 @@ footer {
   background-color: red;
 }
 
+.page-wrapper {
+  height: 100vh;
+  background-color: blue;
+}
 
-
-aside {
+.main-content {
   height: 100%;
+  width: calc(100%-80px);
+  background-color: pink;
+}
+
+.upgrade {
+  position: fixed;
+  top:0;
+  right: 0;
+  height: 80px;
+  width: auto;
+  background-color: red rgba(255, 0, 0, 0.5);
+  z-index: 1;
+}
+
+.aside-bottom {
+  background-color: lightblue;
+  display: flex;
   width: 300px;
-  background-color: purple;
-  flex-direction: column;
+  bottom: 80px;
+  height: 30px;
+}
+
+.secondary-nav {
+
+}
+
+.playlisty-list {
+  overflow-y: auto;
+  height: 100%;
 }
