@@ -1,0 +1,24 @@
+.page-wrapper {
+  height: 100vh;
+  background-color: blue;
+}
+
+main {
+  height: calc(100% - 80px);
+  background-color: green;
+  display: flex;
+}
+
+footer {
+  height: 80px;
+  background-color: red;
+}
+
+
+
+aside {
+  height: 100%;
+  width: 300px;
+  background-color: purple;
+  flex-direction: column;
+}
