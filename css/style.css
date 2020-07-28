@@ -10,7 +10,7 @@
   background-color: purple;
 }
 .page-wrapper {
-  height: 100vh;
+  height: 450px;
   background-color: #000;
 }
 
@@ -42,14 +42,12 @@ aside {
 }
 .main-nav {
   background-color: black;
-  padding:
+  padding: 15px;
 }
 
 .home {
   width: 35px;
   height: 35px;
-  text-align: center;
-
 }
 
 .link {
@@ -57,21 +55,58 @@ aside {
   text-align: center;
   color: white;
   font-weight: bolder;
-  margin:0px auto;
+  margin: 10px;
+  padding-bottom: 10px;
 }
 
 .secondary-nav {
-  height: 100%;
+  height: 250px;
   overflow: hidden;
-  background-color: lightblue;
+  background-color: black;
 }
+
+.fas {
+  color: rgba(255,255,255,0.5);
+  font-size: 2.5em;
+  margin-top: 10px;
+}
+
+.a {
+  color:  rgba(255,255,255,0.5);
+}
+
 .playlist-title {
   height: 50px;
+  color: white;
+  font-weight: bolder;
+  margin: 10px;
+  padding: 10px;
 }
+
+.playlist-title h3 {
+  font-size: 15px;
+  text-transform: uppercase;
+}
+
+
+.playlist-title a {
+  color:  rgba(255,255,255,0.5);
+  text-decoration: none;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+}
+
 .playlist-list {
   height: calc(100% - 50px);
   overflow-y: auto;
 }
+
+.playlist-list a {
+  text-align: center;
+}
+
+
+
 .aside-bottom {
   height: 80px;
   flex-shrink: 0;
